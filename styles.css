@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+#welcome-section{
+    position: relative;
+    height: 250px;
+    padding: 0;
+}
+
+
+#welcome-section #welcome-slide .carousel-inner .carousel-item img{
+    filter: brightness(30%);
+}
+
+#welcome-section h2{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #f3e700;
+    font-family: "Oleo Script Swash Caps", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#food-catgories .card{
+    background-color: #E48900;
+    width: 19rem;
+    box-shadow: 0 0 10px 1px #865100;
+}
+
+#review{
+    background-color: #BE0000;
+}
+
+#review .row{
+    display: flex;
+    justify-content: center;
+}
+
+#review #review-comment p{
+    color: #9EDE73;
+    
+}
+
+#review #review-comment h2{
+    color: #F7EA00;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#review .reviewer{
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/Person-1.avif);
+    background-repeat: no-repeat;
+    background-position: bottom 25% center;
+    border-radius: 100%;
+}
+
+footer{
+    background-color: #9EDE73;
+}
+
+footer h2{
+    text-align: center;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/Food-6.avif);
+    
+}
+
+#intro h2{
+    color: #F7EA00;
+}
+
+#intro p{
+    color:#9EDE73;
+}
+
+#menu{
+    background-color: #9EDE73;
+}
+
+#menu h3{
+    color: #BE0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menu .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu .row .col{
+    width: 10rem;
+    background-color: #E48900;
+}
+
+#menu .row .col img{
+    width: 100%;
+    height: 10rem;
+}
